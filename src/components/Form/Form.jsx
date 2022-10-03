@@ -11,8 +11,7 @@ function Form({ submit }) {
     e.preventDefault();
     submit({
       id: nanoid(),
-      name: name,
-      number: number,
+       name, number
     });
     formReset();
   };
